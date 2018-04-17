@@ -27,4 +27,4 @@ input = gets.chomp
 inputs = input.split(" ")
 word = inputs[0]
 word[inputs[1].to_i] = ""
-puts inputs[0]
+puts word
